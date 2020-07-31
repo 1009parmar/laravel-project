@@ -1,0 +1,54 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.message {
+    height: 10px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/img/background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ex3 {
+    height: 450px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #818181;
+    border-radius: 10px;
+}
