@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <h2 class="h1-responsive font-weight-bold text-center text-light">Contact</h2>
-<p class="text-center w-responsive text-light">Do you have any questions? Please do not hesitate to contact directly.</p>
+<p class="text-center w-responsive text-light">Do you have any questions? Please do not hesitate to contact directly with us.</p>
 <div class="col-md-7 mb-md-0 mb-5 text-light ">
     {!! Form::open(['url' => 'contact/submit']) !!}
     <div class="form-group">
